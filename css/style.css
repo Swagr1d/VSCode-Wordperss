@@ -160,15 +160,15 @@ h2.title {
 
 .waiting .waiting_wrapper {
     margin-top: 45px;
+    display: flex;/* превратили инлайн блок во флекс и теперь очень легко выравнивать элементы */
+    justify-content: space-between;
 }
 
 .waiting .waiting_wrapper .waiting_item {
-    display: inline-block;
     width: 339px;
     text-align: center;
     vertical-align: top;
-    margin: 0 15px; /* кривовато, нужно переделать через flex-box технологияю или колонны */
-}
+    }
 
 .waiting .waiting_wrapper .waiting_item .waiting_img {
     width: 100%; /* 100% от родителя позволяет при смене картинки уменьшить её адекватно*/
@@ -184,8 +184,10 @@ h2.title {
     margin-top: 18px;
 }
 
-.my-flex-container {
+/* .my-flex-container {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 450px;
 }
 
@@ -195,6 +197,6 @@ h2.title {
     background-color: aqua;
     text-align: center;
     color: #4A4A4A;
-}
+} */
 
 
