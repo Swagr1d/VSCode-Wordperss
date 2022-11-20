@@ -12,6 +12,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -28,7 +29,6 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 15px;
-    /* identical to box height, or 160% */
     text-align: center;
     text-transform: uppercase;
     margin-top: 14px;
@@ -40,10 +40,8 @@ h1 {
 
 .title {
     font-family: 'Roboto';
-    /* font-style: normal; */
     font-weight: 900;
     font-size: 41px;
-       /* identical to box height, or 100% */
     text-align: center;
     line-height: 41px;
     text-transform: uppercase;
@@ -199,4 +197,91 @@ h2.title {
     color: #4A4A4A;
 } */
 
+.optimization {
+    min-height: 550px;
+    padding: 107px 0  72px 0;
+}
+
+.optimization .optimization_header {
+    margin-left: 390px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.optimization .optimization_text {
+    margin-top: 25px;
+    margin-left: 390px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.optimization .optimization_text span {
+    font-family: 'Roboto - Bold';
+    font-weight: 700;
+  }
+
+  .optimization .optimization_img {
+    position: absolute;
+    top: -47px;
+    left: -240px;
+    z-index: -1;
+  }
+
+  .complete .complete_divider {
+    width: 220px;
+    height: 7px;
+    background: #F9BF3B;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.complete{
+    min-height: 457px;
+    background: url('../img/second_bg.png') center center/cover no-repeat;
+    padding: 86px 0 68.5px 0;   
+}
+
+.complete_header {
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EFEFEF;
+    }
+
+.complete .complete_wrapper {
+    display: flex;
+    justify-content: space-between;
+}    
+
+.complete .complete_wrapper .wrapper_item {
+    margin-top: 68px;
+    text-align: center;
+    width: 195px;
+    vertical-align: top;
+}
+
+.complete .complete_wrapper .wrapper_item .wrapper_img {
+    width: 118px;
+
+}
+
+.complete .complete_wrapper .wrapper_item .wrapper_descr {
+    margin-top: 24.5px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #EFEFEF; 
+}
 
