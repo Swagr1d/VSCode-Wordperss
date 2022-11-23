@@ -375,6 +375,12 @@ h2.title {
     padding: 57px 0 0 0;
     margin: 0 auto;
     background: #1A1A1A;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #888888;
 }
 
 .footer_text {
@@ -385,3 +391,4 @@ h2.title {
     text-align: center;
     color: #888888;
 }
+
